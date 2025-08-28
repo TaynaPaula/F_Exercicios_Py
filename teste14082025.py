@@ -126,3 +126,42 @@ print(s[1]);
 print(s[37]);
 print(s[40]); #deu erro pq o numero de letras é menor
 
+##
+v= 'nono';
+print(id(v));
+v='outro';
+print(id(v));
+v[0] = 'p';
+print(v[0]);
+####
+s="Festa"
+T="na vila"
+U= s+ T
+print(U)
+U= 'hoje tem '+ U
+print(U)
+K="repete."
+W = K * 3
+print(W)
+s= "festa "+ 100 # da erro pq string não concatena COM NUMERO 
+#### Fatiamento 
+s= 'abcdefghijklmno'
+print(s)
+len(s)
+print(s[3:10])
+print(s[0:5])
+p = s[3:10]
+print (p)
+print(len(p))
+i = 0
+f=0
+print(s[i:f])
+print(s[:5])
+print(s[5:])
+
+t='9pula8pula7pula6pula5'
+print(len(t))
+print(t[0:21:5])
+print(t[::5])
+
+
