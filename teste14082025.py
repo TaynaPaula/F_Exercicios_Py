@@ -225,7 +225,7 @@ print(f"A diferença é {res}")
 """Receba o raio e calcule o comprimento de um circuferência"""
 import math
 r= int(input("Informe o raio "))
-(C=(2*math.pi)*r)
+(C=(2*
 print(f"A diferença é {}")
 
 #Exercicio  ----
@@ -237,5 +237,6 @@ print(f"A diferença é {}")
 #Exercicio  ----
 #Exercicio  ----
 #Exercicio  ----
+
 
 
