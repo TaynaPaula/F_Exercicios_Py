@@ -76,7 +76,7 @@ print (c)
 
 a=50
 b=80
-c=(a**2 + b**2)
+c=(a**2 + b**2)   
 d= c**0.5
 
 print(d)*
@@ -164,5 +164,48 @@ print(len(t))
 print(t[0:21:5])# de cinco em cinco
 print(t[::5])# de cinco em cinco
 
+#Exercicos lista satoshi----------------------------------------------
+#Exercicio 1 ----
+lado=(input("Digite o lado de um quadrado"))
+area=(lado+lado)
+print("A area é igual a ",  area)
 
+#Exercicio 2 ----
+salario= int(input("digite o salario "))
+novoSalario=((salario)*1.15)
+print("Novo salário igual", novoSalario)
+
+#Exercicio 3 ----
+base= int(input("Digite a base do triângulo "))
+altura=(int(input("Digite a altura de um triângulo")))
+area=((base*altura)/2)
+print("Area é: ", area)
+
+#Exercicio 4 ----
+temperatura= float(input("Digite a temperatura "))
+F=(((9*temperatura)+160)/5)
+print("A conversão da tempura em graus para Fahrenheit é: ", F)
+
+#Exercicio 5 --------------------------------------
+a= float(input("Digite o valor de A "))
+b= float(input("Digite o valor de b "))
+c= float(input("Digite o valor de c "))
+E=(((a**2)+160)/5)
+
+#Exercicio 6 --------------------------------------
+#Exercicio 7 ----
+l= int(input("Digite A Largura "))
+a= int(input("Digite  a Altura "))
+c= int(input("Digite o Comprimento "))
+volume=(c*l)*a
+print("O volume do paralelepípedo é: ", volume)
+
+#Exercicio 8 ----
+#Exercicio  ----
+#Exercicio  ----
+#Exercicio  ----
+#Exercicio  ----
+#Exercicio  ----
+#Exercicio  ----
+#Exercicio  ----
 
