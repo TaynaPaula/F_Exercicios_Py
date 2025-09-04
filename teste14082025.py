@@ -199,8 +199,35 @@ a= int(input("Digite  a Altura "))
 c= int(input("Digite o Comprimento "))
 volume=(c*l)*a
 print("O volume do paralelepípedo é: ", volume)
+print(f"O volume do paralelepípedo é: {volume}")#maneiras
 
 #Exercicio 8 ----
+"""Receba o valor de um depósito em poupança. Calcule e mostre o valor após 1 mês de aplicação sabendo que recebe 1,3% a.m."""
+poupanca=int(input("Digite o para depósito :"))
+valorapos=(poupanca)*1.13
+print("O informe de rendimento apos 1 mês é: %.2f " %valorapos)
+
+#Exercicio 9 ----
+"""Receba os 2 númeors inteiros. Calcule e mostre a soma dos quadrados"""
+a= int(input("Digite o valor de A "))
+b= int(input("Digite o valor de b "))
+res=(a*a)+(b*b)
+print(f"A soma dos quadrados é {res}")
+
+#Exercicio 10 ----
+"""Receba os 2 númeors inteiros. Mostre a diferença"""
+a= int(input("Digite o valor de A "))
+b= int(input("Digite o valor de b "))
+res=(a-b)
+print(f"A diferença é {res}")
+
+#Exercicio 11  ----
+"""Receba o raio e calcule o comprimento de um circuferência"""
+import math
+r= int(input("Informe o raio "))
+(C=(2*math.pi)*r)
+print(f"A diferença é {}")
+
 #Exercicio  ----
 #Exercicio  ----
 #Exercicio  ----
@@ -208,4 +235,7 @@ print("O volume do paralelepípedo é: ", volume)
 #Exercicio  ----
 #Exercicio  ----
 #Exercicio  ----
+#Exercicio  ----
+#Exercicio  ----
+
 
